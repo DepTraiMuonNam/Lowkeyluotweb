@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang chủ</title>
-    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <h1>Lowkey Lướt Web</h1>
@@ -14,5 +13,68 @@
     <button class="register">Đăng ký</button>
 
     <p class="p">Vui lòng đăng nhập hoặc đăng ký để tiếp tục.</p>
+
+    <style>
+        body {
+    background: linear-gradient(to bottom, white, #949494);
+    height: 100vh;
+    margin: 0;
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 10px 20px;
+    margin: 10px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+    cursor:pointer;
+}
+
+p {
+    color: #555;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login {
+    background-color: #000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.register {
+    padding: 10px 27px;
+    background-color: transparent;
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-58%);
+    top: 210px;
+}
+
+.p {
+    margin-top: 70px;
+}
+
+.login:hover {
+    background-color: #949494;
+}
+
+.register:hover {
+    background-color: #333;
+    color: white;
+}
+    </style>
 </body>
 </html>
